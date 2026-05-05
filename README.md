@@ -63,7 +63,7 @@ at the top of the file
 - **Stage 1:** Physics-based screening using 
   Grey Relational Analysis (GRA)
 - **Stage 2:** Robust multi-objective optimization 
-  using NSGA-II with soft constraints
+  using NSGA-II 
 
 ---
 
