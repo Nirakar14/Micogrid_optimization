@@ -7,7 +7,7 @@
 - **Authors:** Nirakar Nepal et al.
 - **Institution:** Department of Electrical Engineering,
   IOE Pulchowk Campus, Tribhuvan University, Nepal
-- **DOI:** [will be added after publication]
+- **DOI:** [Paper](https://doi.org/10.1016/j.ecmx.2026.101933)
 
 ---
 
@@ -69,6 +69,19 @@ at the top of the file
 
 ## Citation
 If you use this code or data, please cite: 
+bibtex @article{NEPAL2026101933,
+title = {Physics-based screening and robust multi-objective optimization of distributed energy resource architectures for LV microgrids},
+journal = {Energy Conversion and Management: X},
+volume = {31},
+pages = {101933},
+year = {2026},
+issn = {2590-1745},
+doi = {https://doi.org/10.1016/j.ecmx.2026.101933},
+url = {https://www.sciencedirect.com/science/article/pii/S2590174526004162},
+author = {Nirakar Nepal and Raagini Upadhyay and Anil Kumar Panjiyar},
+keywords = {Distributed energy resources, Grey relational analysis, Multi-objective optimization, Robust planning under uncertainty},
+abstract = {Low-voltage (LV) microgrids increasingly operate close to their technical limits as more distributed energy resources (DERs) and power-electronic controls are integrated at the distribution level. Planning must therefore respect network physics while balancing multiple objectives under uncertainty. This paper proposes a two-stage workflow that first screens a wide set of DER architecture options and then refines the best candidates using multi-objective optimization. Physics-based time-series simulations are used to evaluate each candidate, and Grey Relational Analysis is applied to rank alternatives. The top-ranked designs are then optimized using NSGA-II to obtain a trade-off between mean grid-import energy and total annual cost under worst-case voltage and operational constraints. Validation on unseen scenarios shows that some solutions that appear attractive during optimization do not remain feasible when conditions change. Among the shortlisted designs, the architecture with the highest DER penetration exhibits the strongest robustness. Overall, the workflow reduces computational effort while producing planning outcomes that remain reliable under uncertainty.}
+}
 
 
 ---
